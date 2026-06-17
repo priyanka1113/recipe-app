@@ -1,0 +1,19 @@
+{
+  "name": "recipe-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "install:all": "npm install",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.0.4",
+    "concurrently": "^9.1.2"
+  }
+}

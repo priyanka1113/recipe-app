@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#6b8e23" />
+    <title>Recipe Pantry is offline</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background: #f7fee7;
+        color: #1f2937;
+      }
+
+      main {
+        width: min(90vw, 34rem);
+        border: 1px solid #d9f99d;
+        border-radius: 1.5rem;
+        padding: 2rem;
+        background: #ffffff;
+        box-shadow: 0 18px 60px rgb(63 98 18 / 0.14);
+      }
+
+      h1 {
+        margin: 0 0 0.75rem;
+        font-size: clamp(2rem, 6vw, 3.5rem);
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      a {
+        color: #4d7c0f;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p aria-hidden="true">Offline mode</p>
+      <h1>You are offline</h1>
+      <p>
+        Recipe Pantry can still open saved favorites. Reconnect to search TheMealDB or load recipes that are not cached yet.
+      </p>
+      <p><a href="/favorites">Open saved favorites</a></p>
+    </main>
+  </body>
+</html>

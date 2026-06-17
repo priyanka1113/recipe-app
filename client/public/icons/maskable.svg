@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Recipe Pantry maskable icon">
+  <rect width="512" height="512" fill="#6b8e23"/>
+  <circle cx="256" cy="256" r="160" fill="#f7fee7"/>
+  <path d="M178 152c0 46 30 84 70 96v118a18 18 0 0 0 36 0V248c40-12 70-50 70-96h-36c0 38-28 68-62 68s-62-30-62-68h-16Z" fill="#365314"/>
+  <path d="M212 142v92M256 142v96M300 142v92" stroke="#365314" stroke-width="26" stroke-linecap="round"/>
+</svg>
