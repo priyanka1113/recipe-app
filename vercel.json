@@ -4,11 +4,7 @@
   "outputDirectory": "client/dist",
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api"
-    },
-    {
-      "source": "/((?!api/).*)",
+      "source": "/((?!api(?:/|$)).*)",
       "destination": "/index.html"
     }
   ],
@@ -33,7 +29,7 @@
     }
   ],
   "functions": {
-    "api/index.ts": {
+    "api/[...path].ts": {
       "maxDuration": 10
     }
   }
